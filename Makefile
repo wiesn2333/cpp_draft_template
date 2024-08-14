@@ -1,5 +1,4 @@
 # INPUT_FILE_WITH_PATH = source-file-with-path
-DEBUG = false
 BUILD_DIR := ./build
 
 CXX := clang++
