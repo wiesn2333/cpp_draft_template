@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build & Run",
+      "type": "shell",
+      "command": "make INPUT_FILE_WITH_PATH=${file} ; ${workspaceFolder}/build/${fileBasenameNoExtension}",
+      "group": {
+        "kind": "build",
+      }
+    },
+    {
+      "label": "Build",
+      "type": "shell",
+      "command": "make",
+      "args": [
+        "INPUT_FILE_WITH_PATH=${file}"
+      ],
+      "group": {
+        "kind": "build",
+      }
+    }
+  ]
+}
